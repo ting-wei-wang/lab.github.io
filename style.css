@@ -1,0 +1,77 @@
+  @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+
+  html, body {
+  	font-family: 'Caveat';
+  	font-size: 25px;
+  	line-height: 1.5;
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+a{
+	text-decoration: none;
+	/*color: rgba(34,54,69,.7);*/
+	font-weight: 500;
+}
+a:hover{
+	color: red;
+}
+.navbar{
+	background: white;
+	/*padding: 2.5rem 1.6rem;*/ 
+	height: 0rem;
+	min-height: 12vh;
+	margin: 1rem 1.6rem;
+}
+.navbar .navbar-brand a{
+	padding: 1rem 0;
+	display: block;
+	text-decoration: none;
+}
+.navbar-light a.navbar-brand{
+	font-family: Yellowtail;
+	font-size: 2rem;
+	color: #e74c3c;
+}
+
+.navbar-light a.navbar-brand:hover, .navbar-light a.navbar-brand:focus{/*//////////////////////////////////////////////////////*/
+	color: #e74c3c;
+}
+.navbar-toggler{
+	background: #e74c3c;
+	border : none;
+	padding: 10px 6px;
+	outline: none;
+}
+.navbar-toggler span{
+	display: block;
+	width: 22px;
+	height: 2px;
+	border: 1px;
+	background: #fff;
+}
+.navbar-toggler span + span{
+	margin-top: 4px;
+	width: 18px;
+	margin-left: 4px;
+}
+.navbar-toggler span + span{
+	display: block;
+	width: 22px;
+	height: 2px;
+	border: 1px;
+	background: #fff;
+}
+
+/*navbar 被蓋掉的解法*/
+.navbar-collapse.justify-content-between.collapse.show{
+	background-color: white;
+	position: relative;
+	z-index: 66;
+	top: -28px;
+}
