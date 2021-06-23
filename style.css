@@ -69,9 +69,31 @@ a:hover{
 }
 
 /*navbar 被蓋掉的解法*/
+
 .navbar-collapse.justify-content-between.collapse.show{
 	background-color: white;
 	position: relative;
 	z-index: 66;
-	top: -28px;
+	/*top: -28px;*/
+}
+
+
+
+
+.bd-example{
+	margin: 1rem 1.6rem;
+
+}
+.card{
+	margin-top: 5rem;
+	width: 18px;
+	margin-left: 1.6rem;
+}
+.about-us{
+	margin: 1rem 1.8rem;
+	font-size: 40px;
+}
+.line-cross{
+	margin: 1rem 1.6rem;
+	margin-top: -25px;
 }
