@@ -81,19 +81,50 @@ a:hover{
 
 
 .bd-example{
-	margin: 1rem 1.6rem;
+	margin: 1.6rem 2.2rem;
+
+
+}
+.welcome{
+
+   margin-left : 600px;
+   margin-top: -10px;
+   font-size: 1.8rem;
+   width: 7.5em; height: 1.25em;
+   border-right: 1px solid transparent;
+   animation: welcome 2s steps(30, end), blink-caret .55s step-end infinite;
+    
+   word-break: break-all;
+   overflow: hidden;
+}
+/* 列印效果 */
+@keyframes welcome {
+    from { width: 0; }
+    to { width: 7.5em; }
+}
+
 
 }
 .card{
-	margin-top: 5rem;
+	margin-top: 2rem;
 	width: 18px;
-	margin-left: 1.6rem;
+	margin-left: 2rem;
 }
 .about-us{
 	margin: 1rem 1.8rem;
 	font-size: 40px;
+
 }
 .line-cross{
 	margin: 1rem 1.6rem;
 	margin-top: -25px;
+}
+.card-img-top{
+	width: 250px;
+	height: 250px;
+	margin: 1rem 2.6rem;
+
+}
+.card-img-top:hover{
+    transform: scale(1.5, 1.5);
 }
